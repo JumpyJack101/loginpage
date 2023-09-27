@@ -1,0 +1,66 @@
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column; /* Arrange elements vertically */
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #f0f0f0; /* Light gray background color */
+  font-family: Arial, sans-serif; /* Choose your preferred font */
+  text-align: center; /* Center text horizontally */
+}
+
+.container {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+}
+
+h1 {
+  font-weight: bold;
+  margin-top: 0;
+  font-size: 24px; /* Adjust the font size as needed */
+}
+
+form {
+  margin: 20px 0;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input[type="email"],
+input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-family: Arial, sans-serif; /* Choose your preferred font */
+}
+
+button[type="submit"] {
+  background-color: #007bff; /* Change to your desired button color */
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-family: Arial, sans-serif; /* Choose your preferred font */
+}
+
+a {
+  text-decoration: none;
+  color: #007bff; /* Change to your desired link color */
+}
+
+a:hover {
+  text-decoration: underline;
+  display: inline-block; /* Reset to inline-block for anchor tag */
+  margin-top: 0; /* Remove margin-top */
+}
+

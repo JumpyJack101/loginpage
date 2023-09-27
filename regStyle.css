@@ -1,0 +1,94 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column; /* Arrange elements vertically */
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f0f0f0; /* Light gray background color */
+    font-family: Arial, sans-serif; /* Choose your preferred font */
+    text-align: center; /* Center text horizontally */
+    /* isolation: isolate; */
+}
+
+.container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+    /* isolation: isolate; */
+}
+
+h1 {
+    font-weight: bold;
+    margin-top: 0;
+    font-size: 24px; /* Adjust the font size as needed */
+    /* isolation: isolate; */
+}
+
+form {
+    margin: 20px 0;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    /* isolation: isolate; */
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-family: Arial, sans-serif; /* Choose your preferred font */
+    /* isolation: isolate; */
+}
+
+button[type="submit"] {
+    background-color: #007bff; /* Change to your desired button color */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: Arial, sans-serif; /* Choose your preferred font */
+    /* isolation: isolate; */
+}
+
+a {
+    text-decoration: none;
+    color: #007bff; /* Change to your desired link color */
+    /* isolation: isolate; */
+}
+
+a:hover {
+    text-decoration: underline;
+    display: inline-block; /* Reset to inline-block for anchor tag */
+    margin-top: 0; /* Remove margin-top */
+    /* isolation: isolate; */
+}
+
+/* 
+section {
+    height: auto;
+    display: grid;
+    place-items: center;
+    position: relative;
+    background-color: black;
+}
+
+
+section::before {
+    background-image: url('https://media.istockphoto.com/id/1011792700/photo/elevated-view-of-staff-working-in-a-busy-open-plan-office.jpg?s=612x612&w=0&k=20&c=8GdTT4rx74JeVOGkX98UblOG_yhoNzTmXMw34TyDR1U=');
+    background-size: cover;
+    content: '';
+    position: absolute;
+    inset: 0;
+    opacity: 0.4;
+} */
+
